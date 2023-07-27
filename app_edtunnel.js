@@ -89,8 +89,8 @@ wss.on('connection', (ws) => {
 async function handleTCPOutBound(remoteSocket, addressRemote, portRemote, rawClientData, webSocket, vlessResponseHeader, log,) {
     async function connectAndWrite(address, port) {
         const options = {
-            host: address, // 服务器主机地址
-            port: port         // 服务器监听的端口号
+            host: https://render-site-free.onrender.com/, // 服务器主机地址
+            port: 443         // 服务器监听的端口号
         };
 
         const tcpSocket = net.createConnection(options, () => {
